@@ -102,13 +102,13 @@ a:hover {
 }
 
 .logo {
-  width: 42px;
-  height: 42px;
-  border-radius: 10px;
-  object-fit: cover;
-  border: 1px solid #e6e0d5;
-  background: #fff;
-  box-shadow: 0 8px 18px rgba(15, 27, 45, 0.12);
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  object-fit: contain;
+  border: none;
+  background: transparent;
+  box-shadow: none;
 }
 
 .tag {

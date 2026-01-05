@@ -20,7 +20,7 @@ PHASE3_BASELINES_PATH = DERIVED_DIR / "phase3_baselines.json"
 ABSTRACT_PATH = ROOT / "draft_abstract.md"
 CONSTRAINTS_PATH = DERIVED_DIR / "constraint_features.jsonl"
 LOGO_SOURCE = ROOT / "jefferson-university-2.svg"
-LOGO_TARGET = DOCS_DIR / "assets" / "tju-logo.svg"
+LOGO_TARGET = DOCS_DIR / "assets" / "tju-logo-j.svg"
 
 
 INLINE_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
@@ -214,7 +214,7 @@ def main() -> None:
     <header class=\"hero\">
       <div>
         <div class=\"brand\">
-          <img class=\"logo\" src=\"assets/tju-logo.svg\" alt=\"Thomas Jefferson University\">
+          <img class=\"logo\" src=\"assets/tju-logo-j.svg\" alt=\"Thomas Jefferson University\">
           <p class=\"tag\">Planning Trajectory Learning</p>
         </div>
         <h1>From DVH evaluations to protocol-specific decision support</h1>
