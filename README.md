@@ -2,6 +2,8 @@
 
 This project analyzes DVH-based plan evaluations to understand how plan quality evolves across iterative planning. It builds a local dataset from MongoDB (read-only), trains protocol-specific models, and serves a dashboard that summarizes results for AAPM-style abstracts.
 
+Project page: https://davidthomas411.github.io/planning-trajectory/
+
 ## What this repository does
 
 - Curates plan evaluation trajectories (multiple attempts per plan, final approved plans only).
