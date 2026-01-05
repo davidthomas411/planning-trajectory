@@ -132,6 +132,7 @@ Note: values are aggregated; no patient identifiers are included.
 - `docs/troubleshooting.md` - common issues and fixes
 - `docs/handoff_checklist.md` - checklist for supervising handoffs
 - `docs/sample_data/` - non-PHI sample exports
+- `project_handoff_playbook.md` - reusable checklist for new projects
 
 ## Key scripts
 

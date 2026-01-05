@@ -19,8 +19,8 @@ PHASE3_METRICS_PATH = DERIVED_DIR / "phase3_metrics.json"
 PHASE3_BASELINES_PATH = DERIVED_DIR / "phase3_baselines.json"
 ABSTRACT_PATH = ROOT / "draft_abstract.md"
 CONSTRAINTS_PATH = DERIVED_DIR / "constraint_features.jsonl"
-LOGO_SOURCE = ROOT / "TJU_logo.jpg"
-LOGO_TARGET = DOCS_DIR / "assets" / "tju-logo.jpg"
+LOGO_SOURCE = ROOT / "jefferson-university-2.svg"
+LOGO_TARGET = DOCS_DIR / "assets" / "tju-logo.svg"
 
 
 INLINE_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
@@ -214,11 +214,8 @@ def main() -> None:
     <header class=\"hero\">
       <div>
         <div class=\"brand\">
-          <img class=\"logo\" src=\"assets/tju-logo.jpg\" alt=\"Thomas Jefferson University\">
-          <div>
-            <p class=\"tag\">Planning Trajectory Learning</p>
-            <p class=\"brand-sub\">Thomas Jefferson University</p>
-          </div>
+          <img class=\"logo\" src=\"assets/tju-logo.svg\" alt=\"Thomas Jefferson University\">
+          <p class=\"tag\">Planning Trajectory Learning</p>
         </div>
         <h1>From DVH evaluations to protocol-specific decision support</h1>
         <p class=\"subtitle\">This project turns iterative plan evaluations into interpretable models that highlight when plans improve, what structure family to focus on next, and when further iterations are unlikely to help.</p>

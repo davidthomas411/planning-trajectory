@@ -12,3 +12,4 @@ data/derived/*.json
 data/derived/*.jsonl
 data/derived/exports/
 data/derived/exports/*.csv
+image/
