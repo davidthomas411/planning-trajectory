@@ -50,6 +50,22 @@ python3 src/dashboard/app.py
 python3 scripts/update_readme.py
 ```
 
+## Project page (GitHub Pages)
+
+This repo ships a static project page in `docs/index.html` that hosts the abstract and figures.
+
+To enable GitHub Pages:
+- Go to the repo Settings -> Pages.
+- Set Source to `main` and Folder to `/docs`.
+- The page will be available at `https://davidthomas411.github.io/planning-trajectory/`.
+
+To refresh the page after new runs:
+
+```
+python3 scripts/render_figures.py
+python3 scripts/build_site.py
+```
+
 ## Latest Dashboard Snapshot (auto-generated)
 
 <!-- AUTO-SNAPSHOT:START -->
@@ -121,6 +137,7 @@ Note: values are aggregated; no patient identifiers are included.
 - `scripts/export_csv.py` - export local CSV snapshots for review
 - `scripts/update_readme.py` - refresh README snapshot + abstract text
 - `scripts/render_figures.py` - render README figures from derived metrics
+- `scripts/build_site.py` - build the GitHub Pages site in `docs/index.html`
 
 ## Figures (auto-generated)
 

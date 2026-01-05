@@ -46,6 +46,15 @@ python3 src/dashboard/app.py
 
 Open `http://localhost:8000` in your browser.
 
+## Build the project page (optional)
+
+The project page lives in `docs/index.html` and can be published with GitHub Pages.
+
+```
+python3 scripts/render_figures.py
+python3 scripts/build_site.py
+```
+
 ## Export CSV for review
 
 If you only need CSVs:

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Planning trajectory learning: DVH evaluation analysis, dashboard, and abstract figures.">
+  <title>Planning Trajectory Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div>
+        <p class="tag">Planning Trajectory Learning</p>
+        <h1>From DVH evaluations to protocol-specific decision support</h1>
+        <p class="subtitle">This project turns iterative plan evaluations into interpretable models that highlight when plans improve, what structure family to focus on next, and when further iterations are unlikely to help.</p>
+        <div class="hero-meta">
+          <span>Last refreshed: 2025-12-29 15:41:42 UTC</span>
+          <span>GitHub: <a href="https://github.com/davidthomas411/planning-trajectory">planning-trajectory</a></span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Project at a glance</h3>
+        <div class="glance-grid">
+          <div class="glance-item"><span>Approved plans</span><strong>5,377</strong></div><div class="glance-item"><span>Evaluation attempts</span><strong>9,398</strong></div><div class="glance-item"><span>Constraint evaluations</span><strong>402,922</strong></div><div class="glance-item"><span>Protocols</span><strong>51</strong></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="metrics">
+      <div class="metric-card"><h4>Q1: Next iteration better</h4><p>Accuracy 57.5%</p><p class="muted">Baseline 28.6%</p></div><div class="metric-card"><h4>Q2: Next structure family</h4><p>Top-3 86.3%</p><p class="muted">Top-5 94.9%</p></div><div class="metric-card"><h4>Q3: Remaining iterations</h4><p>MAE 5.23</p><p class="muted">Baseline 5.73</p></div>
+    </section>
+
+    <section class="figures">
+      <div class="section-header">
+        <h2>Figures</h2>
+        <p>Aggregated summaries for the abstract and dashboard.</p>
+      </div>
+      <div class="figure-grid">
+        <figure class="figure-card"><img src="figures/dataset_overview.svg" alt="Dataset overview" loading="lazy"><figcaption><strong>Dataset overview</strong><span>Aggregated counts from qualified plans and evaluations.</span></figcaption></figure>
+<figure class="figure-card"><img src="figures/q1_accuracy.svg" alt="Q1 accuracy" loading="lazy"><figcaption><strong>Q1 accuracy</strong><span>Model vs baseline for next-iteration improvement.</span></figcaption></figure>
+<figure class="figure-card"><img src="figures/q2_top3.svg" alt="Q2 top-3 accuracy" loading="lazy"><figcaption><strong>Q2 top-3 accuracy</strong><span>Structure family prediction success rate.</span></figcaption></figure>
+<figure class="figure-card"><img src="figures/q3_mae.svg" alt="Q3 remaining iterations" loading="lazy"><figcaption><strong>Q3 remaining iterations</strong><span>Mean absolute error vs baseline (lower is better).</span></figcaption></figure>
+<figure class="figure-card"><img src="figures/top_bottom_q1_accuracy.svg" alt="Top vs bottom protocols" loading="lazy"><figcaption><strong>Top vs bottom protocols</strong><span>Protocol variability for Q1 performance.</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="abstract">
+      <div class="section-header">
+        <h2>Draft Abstract</h2>
+        <p>Updated from draft_abstract.md.</p>
+      </div>
+      <div class="abstract-body">
+        <h2>Draft Abstract - PlanEval Trajectory Learning</h2>
+<p><strong>Title:</strong> Protocol-specific planning trajectories for decision support in radiotherapy plan optimization</p>
+<p><strong>Purpose:</strong> During treatment planning, planners perform repeated DVH-based evaluations to judge whether a plan is improving, identify remaining tradeoffs, and decide when acceptable quality has been reached. This study evaluates whether DVH evaluations collected during real iterative planning contain sufficient signal to predict expert planning decisions at the next iteration, enabling protocol-specific plan quality prediction and decision support.</p>
+<p><strong>Methods:</strong> DVH evaluation data were retrospectively curated from an institutional plan evaluation system, capturing the iterative assessments performed by planners during treatment planning. A total of 5,377 clinically approved plans (9,398 evaluation attempts) spanning 51 protocols were included, requiring at least two evaluations per plan and a final approved state with minimum coverage of 65%. Across all iterations, 402,922 constraint evaluations covering 150 unique structures were analyzed. A composite plan score was derived exclusively from approved plan evaluations and used only as a reference for defining protocol-specific quality targets. Intermediate DVH evaluations from earlier planning iterations were used to construct per-iteration feature representations summarizing constraint satisfaction, coverage, and violation severity. For protocols with at least 20 plans (23 protocols), plan-level 70/10/20 train/validation/test splits were used to train models to answer three planning questions: (1) whether the next planner iteration would improve plan quality relative to the current iteration, using chronological order as a proxy label; (2) which structure family was most likely to improve next; and (3) whether additional iterations were likely to yield meaningful improvement (stop versus continue). A secondary analysis estimated remaining iterations to approval.</p>
+<p><strong>Results:</strong> The improvement-direction model correctly identified the next iteration as better or worse with 57.5% accuracy versus a 28.6% baseline (AUC 0.62); top-5 protocols averaged 67.6% vs 50.9% for the bottom-5. The stop/continue model achieved 61.6% balanced accuracy versus a 52.2% baseline (AUC 0.66); top-5 protocols averaged 82.9% vs 45.5% for the bottom-5. Mean absolute error for remaining-iteration prediction was 5.23 iterations (baseline 5.73). Next-focus prediction included the observed improvement within the top three suggested structure families in 86.3% of cases (top five: 94.9%); top-5 protocols averaged 100% vs 71.3% for the bottom-5, with lower balanced accuracy (25.1% vs baseline 26.9%) due to label imbalance. Highest-signal protocols included brain SRT (3–5 fx), head and neck oral cavity, breast tangents, and lung SBRT 54Gy/3fx, while rectal 54Gy and lung 45–60Gy protocols showed lower predictability.</p>
+<p><strong>Conclusion:</strong> DVH evaluations collected during real iterative planning encode reproducible, protocol-specific signals that predict how expert planners improve plans and determine when planning should stop. This work demonstrates the feasibility of a plan quality prediction and decision-support framework that can assist planners directly and provide clinically grounded context for automated and AI-driven planning systems.</p>
+      </div>
+    </section>
+
+    <section class="next-steps">
+      <div class="section-header">
+        <h2>How to refresh this page</h2>
+        <p>Run locally after you regenerate the data.</p>
+      </div>
+      <div class="code-block">
+        <code>
+python3 scripts/render_figures.py
+python3 scripts/update_readme.py
+python3 scripts/build_site.py
+        </code>
+      </div>
+    </section>
+
+    <footer>
+      <p>All figures are aggregated and contain no patient identifiers. Data access is read-only.</p>
+    </footer>
+  </div>
+</body>
+</html>
