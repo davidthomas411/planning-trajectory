@@ -9,6 +9,15 @@ This project analyzes DVH-based plan evaluations to understand how plan quality 
 - Trains models to predict planning decisions and next-step improvements.
 - Provides a local dashboard for review, plots, and abstract figures.
 
+## Project at a Glance (auto-generated)
+
+<!-- AUTO-GLANCE:START -->
+- Dataset: 5,377 approved plans, 9,398 evaluation attempts, 51 protocols.
+- Q1 (next iteration better): 57.5% accuracy (baseline 28.6%).
+- Q2 (next structure family): 86.3% top-3 accuracy.
+- Q3 (remaining iterations): MAE 5.23 (baseline 5.73).
+<!-- AUTO-GLANCE:END -->
+
 ## Quickstart (student)
 
 1) Install dependencies:
@@ -111,3 +120,14 @@ Note: values are aggregated; no patient identifiers are included.
 - `scripts/run_pipeline.sh` - run Phase 2/3 pipeline locally
 - `scripts/export_csv.py` - export local CSV snapshots for review
 - `scripts/update_readme.py` - refresh README snapshot + abstract text
+- `scripts/render_figures.py` - render README figures from derived metrics
+
+## Figures (auto-generated)
+
+Run `python3 scripts/render_figures.py` to refresh these images.
+
+![Dataset overview](docs/figures/dataset_overview.svg)
+![Q1 accuracy vs baseline](docs/figures/q1_accuracy.svg)
+![Q2 top-3 accuracy vs baseline](docs/figures/q2_top3.svg)
+![Q3 MAE vs baseline](docs/figures/q3_mae.svg)
+![Top vs bottom protocols (Q1)](docs/figures/top_bottom_q1_accuracy.svg)

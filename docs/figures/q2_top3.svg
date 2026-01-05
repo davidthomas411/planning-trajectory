@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360">
+<rect width="100%" height="100%" fill="#ffffff" />
+<text x="70" y="36" font-size="20" font-weight="600" fill="#1d2433" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Q2: Next Structure Family (Top-3)</text>
+<line x1="70" y1="290.0" x2="950" y2="290.0" stroke="#e6e9ef" stroke-width="1.0" />
+<text x="62" y="294.0" font-size="11" font-weight="400" fill="#5b6575" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">0.0%</text>
+<line x1="70" y1="246.0" x2="950" y2="246.0" stroke="#e6e9ef" stroke-width="1.0" />
+<text x="62" y="250.0" font-size="11" font-weight="400" fill="#5b6575" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">20.0%</text>
+<line x1="70" y1="202.0" x2="950" y2="202.0" stroke="#e6e9ef" stroke-width="1.0" />
+<text x="62" y="206.0" font-size="11" font-weight="400" fill="#5b6575" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">40.0%</text>
+<line x1="70" y1="157.99999999999997" x2="950" y2="157.99999999999997" stroke="#e6e9ef" stroke-width="1.0" />
+<text x="62" y="161.99999999999997" font-size="11" font-weight="400" fill="#5b6575" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">60.0%</text>
+<line x1="70" y1="114.0" x2="950" y2="114.0" stroke="#e6e9ef" stroke-width="1.0" />
+<text x="62" y="118.0" font-size="11" font-weight="400" fill="#5b6575" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">80.0%</text>
+<line x1="70" y1="70.0" x2="950" y2="70.0" stroke="#e6e9ef" stroke-width="1.0" />
+<text x="62" y="74.0" font-size="11" font-weight="400" fill="#5b6575" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">100.0%</text>
+<text x="70" y="58" font-size="12" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Top-3 accuracy</text>
+<rect x="452.4" y="100.24021349191335" width="48" height="189.75978650808665" fill="#2f6fed" rx="6" ry="6" />
+<text x="476.4" y="94.24021349191335" font-size="11" font-weight="400" fill="#1d2433" text-anchor="middle" font-family="IBM Plex Sans, Segoe UI, sans-serif">86.3%</text>
+<rect x="519.6" y="94.63775033893128" width="48" height="195.36224966106872" fill="#93a4bf" rx="6" ry="6" />
+<text x="543.6" y="88.63775033893128" font-size="11" font-weight="400" fill="#1d2433" text-anchor="middle" font-family="IBM Plex Sans, Segoe UI, sans-serif">88.8%</text>
+<text x="510.0" y="318" font-size="12" font-weight="400" fill="#1d2433" text-anchor="middle" font-family="IBM Plex Sans, Segoe UI, sans-serif">Top-3</text>
+<rect x="70" y="324" width="12" height="12" fill="#2f6fed" rx="3" ry="3" />
+<text x="88" y="334" font-size="12" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Model</text>
+<rect x="150" y="324" width="12" height="12" fill="#93a4bf" rx="3" ry="3" />
+<text x="168" y="334" font-size="12" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Baseline</text>
+</svg>

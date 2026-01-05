@@ -148,6 +148,41 @@ def _build_snapshot() -> str:
     return "\n".join(lines)
 
 
+def _build_glance() -> str:
+    phase2 = _load_json(PHASE2_SUMMARY_PATH)
+    phase3 = _load_json(PHASE3_METRICS_PATH)
+    baselines = _load_json(PHASE3_BASELINES_PATH)
+
+    plans = _format_int(phase2.get("qualified_plans"))
+    attempts = _format_int(phase2.get("attempts_written"))
+    protocols = _format_int(phase2.get("protocols"))
+
+    task1 = phase3.get("task1", {}).get("macro", {})
+    task2 = phase3.get("task2", {}).get("macro", {})
+    task3 = phase3.get("task3", {}).get("macro", {})
+    base1 = baselines.get("task1", {}).get("macro", {})
+    base2 = baselines.get("task2", {}).get("macro", {})
+
+    glance_lines = [
+        f"- Dataset: {plans} approved plans, {attempts} evaluation attempts, {protocols} protocols.",
+        (
+            "- Q1 (next iteration better): "
+            f"{_format_pct(task1.get('accuracy'))} accuracy "
+            f"(baseline {_format_pct(base1.get('accuracy'))})."
+        ),
+        (
+            "- Q2 (next structure family): "
+            f"{_format_pct(task3.get('top3_accuracy'))} top-3 accuracy."
+        ),
+        (
+            "- Q3 (remaining iterations): "
+            f"MAE {_format_float(task2.get('mae'))} "
+            f"(baseline {_format_float(base2.get('mae'))})."
+        ),
+    ]
+    return "\n".join(glance_lines)
+
+
 def _replace_block(text: str, marker: str, new_block: str) -> str:
     start = f"<!-- {marker}:START -->"
     end = f"<!-- {marker}:END -->"
@@ -161,9 +196,11 @@ def _replace_block(text: str, marker: str, new_block: str) -> str:
 def main() -> None:
     readme = README_PATH.read_text()
     snapshot = _build_snapshot()
+    glance = _build_glance()
     abstract_text = ABSTRACT_PATH.read_text().strip() if ABSTRACT_PATH.exists() else ""
     abstract_block = abstract_text or "(Draft abstract missing.)"
 
+    readme = _replace_block(readme, "AUTO-GLANCE", glance)
     readme = _replace_block(readme, "AUTO-SNAPSHOT", snapshot)
     readme = _replace_block(readme, "AUTO-ABSTRACT", abstract_block)
 

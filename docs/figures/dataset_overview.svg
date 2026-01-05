@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="240" viewBox="0 0 980 240">
+<rect width="100%" height="100%" fill="#ffffff" />
+<text x="24" y="36" font-size="20" font-weight="600" fill="#1d2433" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Dataset Overview</text>
+<rect x="24.0" y="64" width="221.0" height="140" fill="#f7f8fb" stroke="#d7dde8" rx="14" ry="14" />
+<text x="40.0" y="108" font-size="28" font-weight="700" fill="#1d2433" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">5,377</text>
+<text x="40.0" y="142" font-size="13" font-weight="500" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Qualified plans</text>
+<rect x="261.0" y="64" width="221.0" height="140" fill="#f7f8fb" stroke="#d7dde8" rx="14" ry="14" />
+<text x="277.0" y="108" font-size="28" font-weight="700" fill="#1d2433" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">9,398</text>
+<text x="277.0" y="142" font-size="13" font-weight="500" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Evaluation attempts</text>
+<rect x="498.0" y="64" width="221.0" height="140" fill="#f7f8fb" stroke="#d7dde8" rx="14" ry="14" />
+<text x="514.0" y="108" font-size="28" font-weight="700" fill="#1d2433" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">51</text>
+<text x="514.0" y="142" font-size="13" font-weight="500" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Protocols</text>
+<rect x="735.0" y="64" width="221.0" height="140" fill="#f7f8fb" stroke="#d7dde8" rx="14" ry="14" />
+<text x="751.0" y="108" font-size="28" font-weight="700" fill="#1d2433" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">402,922</text>
+<text x="751.0" y="142" font-size="13" font-weight="500" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Constraint evaluations</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420">
+<rect width="100%" height="100%" fill="#ffffff" />
+<text x="220" y="36" font-size="20" font-weight="600" fill="#1d2433" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Top vs Bottom Protocols (Q1 Accuracy)</text>
+<rect x="220" y="76.2" width="720.0" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="89.22" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">Breast 40.05Gy  4fields Left</text>
+<text x="946.0" y="89.22" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">78.6%</text>
+<rect x="220" y="107.2" width="687.2727272727273" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="120.22" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">H&amp;N Postop OC</text>
+<text x="913.2727272727273" y="120.22" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">75.0%</text>
+<rect x="220" y="138.2" width="590.5454545454546" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="151.22" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">H&amp;N Def OC</text>
+<text x="816.5454545454546" y="151.22" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">64.4%</text>
+<rect x="220" y="169.2" width="556.3636363636364" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="182.22" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">Brain SRT 5fx</text>
+<text x="782.3636363636364" y="182.22" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">60.7%</text>
+<rect x="220" y="200.2" width="541.0909090909091" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="213.22" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">Florence,30 Gy/5 fx Left</text>
+<text x="767.0909090909091" y="213.22" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">59.0%</text>
+<rect x="220" y="231.2" width="451.6827852998066" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="244.22" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">UK Fast-Forward  26 Gy / 5 fx daily Left</text>
+<text x="677.6827852998066" y="244.22" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">49.3%</text>
+<rect x="220" y="262.2" width="458.1818181818182" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="275.21999999999997" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">Rectal 54Gy in 27fx</text>
+<text x="684.1818181818182" y="275.21999999999997" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">50.0%</text>
+<rect x="220" y="293.2" width="458.1818181818182" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="306.21999999999997" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">Lung SBRT 60Gy in 5fx</text>
+<text x="684.1818181818182" y="306.21999999999997" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">50.0%</text>
+<rect x="220" y="324.2" width="480.8640864086409" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="337.21999999999997" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">Lung 45Gy in30fx</text>
+<text x="706.8640864086409" y="337.21999999999997" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">52.5%</text>
+<rect x="220" y="355.2" width="485.1336898395722" height="18.599999999999998" fill="#2f6fed" rx="6" ry="6" />
+<text x="208" y="368.21999999999997" font-size="11" font-weight="400" fill="#1d2433" text-anchor="end" font-family="IBM Plex Sans, Segoe UI, sans-serif">Breast 42.56Gy Tangent Right</text>
+<text x="711.1336898395722" y="368.21999999999997" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">52.9%</text>
+<text x="220" y="408" font-size="11" font-weight="400" fill="#5b6575" text-anchor="start" font-family="IBM Plex Sans, Segoe UI, sans-serif">Higher is better</text>
+</svg>
