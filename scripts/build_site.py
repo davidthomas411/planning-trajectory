@@ -208,6 +208,7 @@ def main() -> None:
     const closeLightbox = () => {
       lightbox.classList.remove("open");
       lightbox.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("lightbox-open");
       lightboxImage.src = "";
       lightboxImage.alt = "";
       lightboxTitle.textContent = "";
@@ -222,6 +223,7 @@ def main() -> None:
         lightboxTitle.textContent = title;
         lightbox.classList.add("open");
         lightbox.setAttribute("aria-hidden", "false");
+        document.body.classList.add("lightbox-open");
       });
     });
 
@@ -312,18 +314,17 @@ python3 scripts/build_site.py
       </div>
     </section>
 
-    <div class=\"lightbox\" id=\"lightbox\" aria-hidden=\"true\" role=\"dialog\">
-      <div class=\"lightbox-backdrop\" data-close=\"true\"></div>
-      <div class=\"lightbox-content\" role=\"document\">
-        <button class=\"lightbox-close\" data-close=\"true\" aria-label=\"Close\">x</button>
-        <img class=\"lightbox-image\" src=\"\" alt=\"\">
-        <p class=\"lightbox-title\"></p>
-      </div>
-    </div>
-
     <footer>
       <p>All figures are aggregated and contain no patient identifiers. Data access is read-only.</p>
     </footer>
+  </div>
+  <div class=\"lightbox\" id=\"lightbox\" aria-hidden=\"true\" role=\"dialog\">
+    <div class=\"lightbox-backdrop\" data-close=\"true\"></div>
+    <div class=\"lightbox-content\" role=\"document\">
+      <button class=\"lightbox-close\" data-close=\"true\" aria-label=\"Close\">x</button>
+      <img class=\"lightbox-image\" src=\"\" alt=\"\">
+      <p class=\"lightbox-title\"></p>
+    </div>
   </div>
   {script}
 </body>

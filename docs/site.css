@@ -24,6 +24,10 @@ body {
   min-height: 100vh;
 }
 
+body.lightbox-open {
+  overflow: hidden;
+}
+
 body::before {
   content: "";
   position: fixed;
