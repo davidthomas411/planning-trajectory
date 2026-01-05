@@ -1,0 +1,4 @@
+protocol_name,patient_id,plan_id,attempt_number,attempt_index,attempt_count,attempt_progress,created_at,constraints_total,constraints_matched,coverage_pct,constraints_pass,constraints_fail,constraints_unknown,near_limit_count,worst_margin,worst_normalized_margin,min_percentile,p10_percentile,p50_percentile,p90_percentile,mean_percentile,plan_score,label_stop,future_best_delta
+Brain SRS 1fx,PT-0001,PLN-0001,1,1,3,0.0,2024-01-01T12:00:00,20,18,0.9,15,2,3,1,0.5,0.05,10,15,35,60,33,65.4,false,5.2
+Brain SRS 1fx,PT-0001,PLN-0001,2,2,3,0.5,2024-01-01T15:00:00,20,18,0.9,16,1,3,0,0.8,0.08,20,25,45,70,44,72.1,false,2.8
+Brain SRS 1fx,PT-0001,PLN-0001,3,3,3,1.0,2024-01-01T18:00:00,20,18,0.9,17,1,2,0,1.1,0.11,30,35,55,80,54,78.9,true,0.0

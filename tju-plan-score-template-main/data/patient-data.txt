@@ -1,0 +1,10 @@
+Protocol Name	Patient Name	Plan Name	Total Dose [cGy]	Num Fractions	PlanningApproved	PTV D95%[%]	PTV Min[%]	PTV D99%[Gy]	SpinalCord D0.03cc[Gy]	Heart V50Gy[%]	Heart Mean[Gy]	Lungs-GTV V20Gy[%]	Lungs-GTV V5Gy[%]	Lungs-GTV Mean[Gy]	Esophagus D0.03cc[Gy]	Esophagus Mean[Gy]	Esophagus V60Gy[%]	Esophagus V60Gy[cc]	BrachialPlex D0.03cc[Gy]	Plan Score
+Lung 6000 30fx	1	1ARC	6000	30	UnApproved	97.7	38.8	46.2	11	75.3	77.4	29.3	2.1	17.3	30.9	73.7	30.2	33.7	36.9	42.9
+Lung 6000 30fx	2	Rt Lung-Med	6000	30	PlanningApproved	97.7	45.7	46.9	13.1	76.3	76.9	26.7	1.6	14.7	50	78.9	31.8	37.8	36.2	45.3
+Lung 6000 30fx	4	Rt Lung&Media	6000	30	PlanningApproved	98.4	42.6	91.5	36.6	30.9	27.7	62.3	46.1	61.3	55.2	49	41.1	34.2	40.3	51.2
+Lung 6000 30fx	28	RUL GTVs LN	6000	30	PlanningApproved	97.7	65.1	93.1	33.5	58.8	43.1	97.9	81.7	93.7	16	19.6	24	22.8	18.1	46.3
+Lung 6000 30fx	44	RLL MASS	6000	30	PlanningApproved	97.7	48.1	48.5	40.3	18.6	7.2	75.4	94.2	77	11.3	4.6	4.2	4.1	80.5	37.9
+Lung 6000 30fx	81	LUL Mass_LNs	6000	30	PlanningApproved	97.7	48.1	48.5	52.9	26.8	21	61.8	95.8	88	20.1	44.3	36.5	32.6	65.8	33.5
+Lung 6000 30fx	104	RIGHT LUNG	6000	30	PlanningApproved	97.7	48.1	48.5	13.6	33	13.8	68.1	70.7	69.1	38.1	28.4	19.3	19.2	69.1	40.2
+Lung 6000 30fx	123	R Lung+Med RT	6000	30	PlanningApproved	97.7	48.1	48.5	62.8	79.4	74.9	35.6	36.6	35.1	56.7	57.2	49.5	50.3	32.2	51.8
+Lung 6000 30fx	141	RMLhilumsu #	6000	30	PlanningApproved	97.7	24.8	23.1	62.8	79.4	74.9	79.6	47.6	73.8	56.7	57.2	49.5	50.3	44.3	55.8

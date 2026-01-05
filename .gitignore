@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.template
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+data/derived/
+data/derived/**/
+data/derived/*.json
+data/derived/*.jsonl
+data/derived/exports/
+data/derived/exports/*.csv

@@ -1,0 +1,233 @@
+Protocol Name		Patient Name	Plan Name	Total Dose [cGy]	Num Fractions	PlanningApproved	Structure ID DVH Objective	PTV D95%[%]	PTV Min[%]	PTV D99%[Gy]	SpinalCord D0.03cc[Gy]	Heart V50Gy[%]	Heart Mean[Gy]	Lungs-GTV V20Gy[%]	Lungs-GTV V5Gy[%]	Lungs-GTV Mean[Gy]	Esophagus D0.03cc[Gy]	Esophagus Mean[Gy]	Esophagus V60Gy[%]	Esophagus V60Gy[cc]	BrachialPlex D0.03cc[Gy]
+Lung 6000 30fx		1	1ARC	6000	30	UnApproved	Achieved	100.00%	82.30%	58.098 Gy	44.963 Gy	0.10%	2.467 Gy	17.61%	26.62%	9.071 Gy	64.125 Gy	11.393 Gy	9.09%	3.00 cc	5.655 Gy
+Lung 6000 30fx		2	Rt Lung-Med	6000	30	PlanningApproved	Achieved	100.00%	83.70%	58.099 Gy	44.718 Gy	0.09%	2.664 Gy	17.10%	26.42%	8.910 Gy	62.772 Gy	11.091 Gy	8.44%	2.79 cc	5.658 Gy
+Lung 6000 30fx		3	Rt Lung&Medi3	6000	30	UnApproved	Achieved	100.00%	81.80%	58.808 Gy	42.077 Gy	2.92%	14.957 Gy	27.26%	56.59%	15.857 Gy	62.503 Gy	17.906 Gy	5.22%	3.25 cc	
+Lung 6000 30fx		4	Rt Lung&Media	6000	30	PlanningApproved	Achieved	100.10%	83.00%	58.965 Gy	40.161 Gy	2.98%	14.803 Gy	27.78%	57.58%	16.160 Gy	62.005 Gy	18.173 Gy	4.77%	2.96 cc	4.063 Gy
+Lung 6000 30fx		5	Mediastinum	6000	30	UnApproved	Achieved				32.150 Gy	0.00%	1.207 Gy				62.985 Gy	12.120 Gy	4.02%	1.33 cc	
+Lung 6000 30fx		6	RUL nodules	6000	30	UnApproved	Achieved	100.00%	87.60%	57.867 Gy	16.752 Gy	0.00%	0.251 Gy	11.30%	27.46%	6.678 Gy	13.896 Gy	2.785 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		7	RULtues1	6000	30	UnApproved	Achieved	100.00%	76.30%	57.212 Gy	45.576 Gy	0.18%	2.247 Gy	18.91%	50.43%	11.920 Gy	64.374 Gy	17.980 Gy	1.82%	0.84 cc	65.988 Gy
+Lung 6000 30fx		8	Plan Sum	6000	30	UnApproved	Achieved			53.091 Gy	38.506 Gy	0.17%	2.272 Gy	18.07%	50.65%	11.422 Gy	60.952 Gy	16.181 Gy	0.29%	0.13 cc	63.791 Gy
+Lung 6000 30fx		9	RUL	6000	30	UnApproved	Achieved	100.00%	87.50%	58.811 Gy	42.901 Gy	0.17%	2.251 Gy	18.90%	51.48%	11.973 Gy	62.403 Gy	16.778 Gy	1.00%	0.46 cc	64.733 Gy
+Lung 6000 30fx		10	RUL1	6000	30	UnApproved	Achieved	100.00%	87.40%	58.809 Gy	43.071 Gy	0.17%	2.251 Gy	18.90%	51.48%	11.973 Gy	62.385 Gy	16.779 Gy	1.02%	0.47 cc	64.700 Gy
+Lung 6000 30fx		11	RULbest	6000	30	UnApproved	Achieved	100.00%	85.40%	58.754 Gy	42.322 Gy	0.17%	2.168 Gy	18.91%	51.48%	11.766 Gy	64.133 Gy	16.882 Gy	1.78%	0.82 cc	63.866 Gy
+Lung 6000 30fx		12	RULRESCAN1	6000	30	UnApproved	Achieved							18.77%	51.38%	11.818 Gy					
+Lung 6000 30fx		13	Plan Sum	6000	30	UnApproved	Achieved							20.48%	54.29%	12.975 Gy					
+Lung 6000 30fx		14	Good	6000	30	UnApproved	Achieved				17.794 Gy	2.10%	9.347 Gy	26.35%	68.91%	17.933 Gy	42.242 Gy	14.665 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		15	LUL+ChestWall	6000	30	UnApproved	Achieved				17.794 Gy	2.10%	9.347 Gy	26.35%	68.91%	17.933 Gy	42.242 Gy	14.665 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		16	LUL+Chst_EZ0	6000	30	UnApproved	Achieved				18.486 Gy	2.20%	9.518 Gy	26.90%	68.92%	18.182 Gy	40.737 Gy	14.602 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		17	LUL+Chst Wall	6000	30	UnApproved	Achieved				17.793 Gy	2.10%	9.346 Gy	26.35%	68.91%	17.933 Gy	42.241 Gy	14.664 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		18	VMAT	6000	30	UnApproved	Achieved				11.744 Gy	1.00%	6.859 Gy	22.94%	38.45%	13.078 Gy	18.826 Gy	6.329 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		19	Plan Sum3	13473.05754	81	UnApproved	Achieved				56.611 Gy	0.00%	1.654 Gy				56.867 Gy	28.931 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		20	Rt Lung	6000	30	UnApproved	Achieved							6.68%	30.31%	5.852 Gy					
+Lung 6000 30fx		21	Plan Sum	8202	36	PlanningApproved	Achieved							6.19%	25.56%	4.899 Gy					
+Lung 6000 30fx		22	LungVMAT	6000	30	UnApproved	Achieved	100.00%	78.90%	57.533 Gy	41.932 Gy	1.66%	10.773 Gy	27.17%	55.37%	14.852 Gy	47.213 Gy	27.724 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		23	LungVMAT1	6000	30	UnApproved	Achieved	100.00%	83.00%	57.366 Gy	37.771 Gy	2.34%	7.699 Gy	29.19%	67.45%	16.220 Gy	62.285 Gy	23.758 Gy	9.74%	3.42 cc	
+Lung 6000 30fx		24	RUL GTVs .5	6000	30	UnApproved	Achieved	84.20%	44.50%	44.991 Gy	40.647 Gy	0.85%	10.863 Gy	41.93%	78.43%	19.460 Gy	63.373 Gy	27.191 Gy	11.99%	5.91 cc	52.665 Gy
+Lung 6000 30fx		25	RUL GTVs .6	6000	30	UnApproved	Achieved	83.40%	45.30%	44.640 Gy	42.170 Gy	0.81%	10.947 Gy	42.16%	79.45%	19.216 Gy	64.219 Gy	27.458 Gy	11.33%	5.59 cc	51.432 Gy
+Lung 6000 30fx		26	RUL GTVs .7	6000	30	UnApproved	Achieved	84.20%	45.10%	44.687 Gy	41.538 Gy	0.96%	10.587 Gy	42.47%	79.35%	19.645 Gy	63.670 Gy	27.199 Gy	8.15%	4.02 cc	52.811 Gy
+Lung 6000 30fx		27	RUL GTVs acur	6000	30	UnApproved	Achieved	86.50%	42.70%	50.612 Gy	45.004 Gy	1.26%	11.901 Gy	46.42%	80.63%	21.961 Gy	71.372 Gy	29.392 Gy	20.62%	10.17 cc	59.812 Gy
+Lung 6000 30fx		28	RUL GTVs LN	6000	30	PlanningApproved	Achieved				40.913 Gy	0.84%	10.819 Gy	42.91%	78.44%	19.964 Gy	64.884 Gy	26.720 Gy	13.35%	6.58 cc	54.375 Gy
+Lung 6000 30fx		29	RUL GTVs LNs	6000	30	UnApproved	Achieved	100.00%	87.90%	58.988 Gy	41.916 Gy	1.70%	13.892 Gy	50.92%	88.32%	24.112 Gy	63.616 Gy	30.105 Gy	20.20%	9.97 cc	56.344 Gy
+Lung 6000 30fx		30	RUL GTVs LNs1	6000	30	UnApproved	Achieved	100.00%	84.90%	58.594 Gy	44.943 Gy	1.82%	13.322 Gy	51.00%	84.10%	23.717 Gy	64.158 Gy	31.901 Gy	20.94%	10.33 cc	57.333 Gy
+Lung 6000 30fx		31	RUL GTVs RP	6000	30	UnApproved	Achieved							34.27%	66.32%	16.139 Gy					
+Lung 6000 30fx		32	LUL NODES	6000	30	UnApproved	Achieved	100.00%	87.90%	57.754 Gy	30.197 Gy	0.66%	4.183 Gy	15.44%	40.16%	10.021 Gy	63.499 Gy	15.688 Gy	10.14%	2.93 cc	1.861 Gy
+Lung 6000 30fx		33	LUL NODES1	6000	30	UnApproved	Achieved	100.00%	82.90%	57.729 Gy	30.851 Gy	0.65%	4.155 Gy	15.49%	39.77%	10.016 Gy	63.893 Gy	15.302 Gy	9.96%	2.87 cc	1.884 Gy
+Lung 6000 30fx		34	2	6000	30	UnApproved	Achieved	100.00%	88.70%	58.860 Gy	40.268 Gy	7.86%	23.388 Gy	28.29%	82.82%	16.963 Gy	66.276 Gy	35.422 Gy	44.17%	21.45 cc	1.092 Gy
+Lung 6000 30fx		35	3	6000	30	UnApproved	Achieved	100.00%	90.10%	58.793 Gy	39.762 Gy	7.86%	23.370 Gy	28.24%	82.57%	16.966 Gy	65.590 Gy	35.567 Gy	43.84%	21.29 cc	1.090 Gy
+Lung 6000 30fx		36	30-181	6000	30	UnApproved	Achieved	100.00%	83.40%	58.423 Gy	40.555 Gy	8.24%	24.438 Gy	31.29%	84.87%	17.480 Gy	64.683 Gy	35.549 Gy	44.17%	21.45 cc	1.091 Gy
+Lung 6000 30fx		37	3d	6000	30	UnApproved	Achieved	100.00%	90.80%	57.268 Gy	62.124 Gy	15.25%	34.784 Gy	50.37%	88.44%	23.263 Gy	67.870 Gy	42.215 Gy	47.27%	22.95 cc	2.017 Gy
+Lung 6000 30fx		38	4	6000	30	UnApproved	Achieved	100.00%	88.50%	58.718 Gy	43.347 Gy	8.15%	23.686 Gy	29.03%	82.61%	17.042 Gy	65.238 Gy	35.308 Gy	44.44%	21.58 cc	1.159 Gy
+Lung 6000 30fx		39	5	6000	30	UnApproved	Achieved	100.00%	88.70%	58.742 Gy	42.921 Gy	8.05%	23.299 Gy	29.16%	82.45%	17.087 Gy	65.785 Gy	35.250 Gy	44.39%	21.55 cc	1.173 Gy
+Lung 6000 30fx		40	good	6000	30	UnApproved	Achieved	100.00%	86.00%	58.639 Gy	39.735 Gy	7.96%	23.091 Gy	29.42%	84.09%	17.232 Gy	65.107 Gy	35.401 Gy	44.20%	21.46 cc	1.068 Gy
+Lung 6000 30fx		41	Plan Sum	6000	30	UnApproved	Achieved							23.74%	82.84%	15.572 Gy					
+Lung 6000 30fx		42	PTVCROP	6000	30	UnApproved	Achieved	100.00%	68.60%	53.743 Gy	37.902 Gy	5.93%	22.731 Gy	30.09%	85.27%	17.546 Gy	65.006 Gy	35.951 Gy	44.46%	21.59 cc	1.051 Gy
+Lung 6000 30fx		43	PTVCROP1	6000	30	UnApproved	Achieved				39.385 Gy	5.92%	22.481 Gy	29.78%	85.18%	17.465 Gy	65.097 Gy	35.688 Gy	44.17%	21.45 cc	1.057 Gy
+Lung 6000 30fx		44	RLL MASS	6000	30	PlanningApproved	Achieved				39.385 Gy	5.92%	22.481 Gy	29.78%	85.18%	17.465 Gy	65.097 Gy	35.688 Gy	44.17%	21.45 cc	1.057 Gy
+Lung 6000 30fx		45	RLL mass LNs	6000	30	UnApproved	Achieved	100.00%	84.20%	58.154 Gy	42.130 Gy	9.21%	25.531 Gy	32.31%	85.16%	17.564 Gy	65.454 Gy	37.207 Gy	44.87%	21.79 cc	1.732 Gy
+Lung 6000 30fx		46	RLL mass LNs1	6000	30	UnApproved	Achieved	100.00%	87.40%	58.381 Gy	42.251 Gy	9.88%	25.992 Gy	31.80%	86.14%	17.491 Gy	64.445 Gy	36.958 Gy	44.61%	21.66 cc	1.705 Gy
+Lung 6000 30fx		47	RLL mass LNs2	6000	30	UnApproved	Achieved	100.00%	80.60%	58.232 Gy	39.462 Gy	7.91%	23.367 Gy	28.01%	82.38%	16.680 Gy	65.326 Gy	35.593 Gy	44.39%	21.55 cc	1.053 Gy
+Lung 6000 30fx		48	RLL mass LNs3	6000	30	UnApproved	Achieved	100.00%	81.80%	58.194 Gy	42.211 Gy	8.01%	24.230 Gy	29.43%	81.43%	16.737 Gy	66.581 Gy	35.601 Gy	44.00%	21.36 cc	1.065 Gy
+Lung 6000 30fx		49	RLL RESCAN	6000	30	UnApproved	Achieved							9.45%	59.24%	8.069 Gy					
+Lung 6000 30fx		50	RLL RESCAN1	6000	30	UnApproved	Achieved							23.87%	80.32%	16.095 Gy					
+Lung 6000 30fx		51	RLL RESCAN2	6000	30	UnApproved	Achieved							24.11%	79.27%	16.103 Gy					
+Lung 6000 30fx		52	RLL RESCAN A1	6000	30	UnApproved	Achieved							24.29%	79.80%	16.138 Gy					
+Lung 6000 30fx		53	RLL RESCAN AC	6000	30	UnApproved	Achieved							24.11%	79.27%	16.103 Gy					
+Lung 6000 30fx		54	Plan Sum	10250	41	UnApproved	Achieved				51.586 Gy	0.31%	15.751 Gy	15.16%	58.88%	12.362 Gy	57.786 Gy	24.200 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		55	R lung mass	5500	22	UnApproved	Achieved				51.430 Gy	0.30%	15.695 Gy	15.11%	58.66%	12.308 Gy	57.584 Gy	24.109 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		56	MEDIASTINUM	6000	30	UnApproved	Achieved	100.00%	86.90%	58.513 Gy	19.118 Gy	0.00%	0.777 Gy	7.12%	37.93%	6.170 Gy	45.971 Gy	5.798 Gy	0.00%	0.00 cc	0.909 Gy
+Lung 6000 30fx		57	MEDIASTINUM1	6000	30	UnApproved	Achieved	100.00%	86.90%	58.513 Gy	19.118 Gy	0.00%	0.777 Gy	7.12%	37.93%	6.170 Gy	45.971 Gy	5.798 Gy	0.00%	0.00 cc	0.909 Gy
+Lung 6000 30fx		58	MEDIASTINUM2	6000	30	UnApproved	Achieved	100.00%	86.60%	58.486 Gy	15.429 Gy	0.00%	0.754 Gy	7.28%	37.26%	6.178 Gy	47.561 Gy	5.638 Gy	0.00%	0.00 cc	0.887 Gy
+Lung 6000 30fx		59	MEDIASTINUM3	6000	30	UnApproved	Achieved	100.80%	85.00%	58.495 Gy	16.114 Gy	0.00%	0.754 Gy	7.16%	38.00%	6.067 Gy	44.740 Gy	5.951 Gy	0.00%	0.00 cc	0.875 Gy
+Lung 6000 30fx		60	L SupClavMed	3000	10	PlanningApproved	Achieved					0.00%	0.089 Gy								24.495 Gy
+Lung 6000 30fx		61	Mediastinum	4000	20	UnApproved	Achieved				35.026 Gy	0.00%	6.043 Gy	15.99%	34.68%	8.399 Gy	42.385 Gy	19.857 Gy			
+Lung 6000 30fx		62	LUL NODE 30fx	6000	30	UnApproved	Achieved							21.06%	79.80%	16.714 Gy					3.528 Gy
+Lung 6000 30fx		63	LUL NODE RP30	6000	30	UnApproved	Achieved							20.73%	80.66%	16.615 Gy					3.842 Gy
+Lung 6000 30fx		64	RUL mass	6000	30	UnApproved	Achieved							21.60%	67.22%	13.459 Gy					
+Lung 6000 30fx		65	BiLat LUNG	6000	150	UnApproved	Achieved	100.00%	93.90%	58.101 Gy	28.120 Gy	0.35%	9.260 Gy	21.08%	77.77%	13.357 Gy	60.081 Gy	12.773 Gy	0.07%	0.03 cc	38.135 Gy
+Lung 6000 30fx		66	RUL	6000	30	UnApproved	Achieved	100.00%	87.80%	58.233 Gy	28.020 Gy	0.00%	0.746 Gy	14.72%	43.10%	9.116 Gy	51.863 Gy	9.795 Gy	0.00%	0.00 cc	30.442 Gy
+Lung 6000 30fx		67	RLL LN	6000	30	UnApproved	Achieved	84.50%	23.00%	42.390 Gy	41.208 Gy	0.53%	14.734 Gy	37.51%	93.58%	19.824 Gy	64.421 Gy	23.229 Gy	7.27%	2.88 cc	4.501 Gy
+Lung 6000 30fx		68	RLL LN1	6000	30	UnApproved	Achieved	100.00%	86.40%	58.703 Gy	41.338 Gy	0.66%	15.223 Gy	37.44%	93.29%	19.634 Gy	63.682 Gy	23.187 Gy	7.34%	2.91 cc	5.188 Gy
+Lung 6000 30fx		69	RLL LN2	6000	30	UnApproved	Achieved				41.054 Gy	0.56%	14.803 Gy	37.36%	94.00%	19.591 Gy	63.588 Gy	23.573 Gy	6.62%	2.62 cc	5.098 Gy
+Lung 6000 30fx		70	RLL LN3	6000	30	UnApproved	Achieved	84.50%	23.00%	42.390 Gy	41.208 Gy	0.53%	14.734 Gy	37.51%	93.58%	19.824 Gy	64.421 Gy	23.229 Gy	7.27%	2.88 cc	4.501 Gy
+Lung 6000 30fx		71	HilarLN_RML	6000	30	UnApproved	Achieved														
+Lung 6000 30fx		72	RML_HilarLN	6000	30	UnApproved	Achieved														
+Lung 6000 30fx		73	Thymus	6000	30	UnApproved	Achieved	100.00%	80.30%	62.932 Gy	27.328 Gy	8.40%	12.765 Gy	33.42%	65.96%	18.099 Gy	48.635 Gy	16.386 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		74	LEFT LUNG	6000	30	UnApproved	Achieved	100.00%	87.00%	58.600 Gy	30.669 Gy	10.31%	13.973 Gy	22.62%	60.93%	14.752 Gy	65.131 Gy	26.380 Gy	34.41%	14.81 cc	1.441 Gy
+Lung 6000 30fx		75	LEFT LUNG1	6000	30	UnApproved	Achieved	100.00%	86.00%	58.627 Gy	31.256 Gy	10.30%	13.832 Gy	22.38%	61.23%	14.692 Gy	65.117 Gy	26.282 Gy	33.32%	14.35 cc	1.777 Gy
+Lung 6000 30fx		76	LEFT LUNG A	6000	30	UnApproved	Achieved	100.00%	86.70%	58.676 Gy	31.268 Gy	10.46%	14.096 Gy	22.88%	61.19%	14.912 Gy	65.733 Gy	26.352 Gy	32.67%	14.07 cc	1.446 Gy
+Lung 6000 30fx		77	LEFT LUNG A1	6000	30	UnApproved	Achieved	100.00%	87.00%	58.600 Gy	30.669 Gy	10.31%	13.973 Gy	22.62%	60.93%	14.752 Gy	65.131 Gy	26.380 Gy	34.41%	14.81 cc	1.441 Gy
+Lung 6000 30fx		78	LEFT LUNG RP	6000	30	UnApproved	Achieved	100.00%	85.10%	58.361 Gy				24.88%	61.22%	13.883 Gy					0.826 Gy
+Lung 6000 30fx		79	LEFT LUNG RP1	6000	30	UnApproved	Achieved	100.00%	85.10%	58.448 Gy				24.80%	61.11%	13.840 Gy					0.809 Gy
+Lung 6000 30fx		80	LU Media	5500	22	PlanningApproved	Achieved				8.575 Gy	0.00%	0.245 Gy				15.677 Gy	2.460 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		81	LUL Mass_LNs	6000	30	PlanningApproved	Achieved				36.188 Gy	3.28%	18.213 Gy				64.641 Gy	19.556 Gy	7.01%	3.02 cc	
+Lung 6000 30fx		82	RUL Mass_LNs	6000	30	UnApproved	Achieved				36.188 Gy	3.28%	18.213 Gy	27.66%	87.76%	18.930 Gy	64.641 Gy	19.556 Gy	7.01%	3.02 cc	
+Lung 6000 30fx		83	RUL Mass_LNs2	6000	30	UnApproved	Achieved				39.564 Gy	3.13%	17.868 Gy	28.04%	81.23%	18.361 Gy	65.071 Gy	19.611 Gy	7.17%	3.09 cc	
+Lung 6000 30fx		84	CENTRAL LUNG	6000	30	UnApproved	Achieved				33.824 Gy	4.20%	13.621 Gy	14.78%	75.79%	11.902 Gy	63.280 Gy	27.778 Gy	34.12%	18.36 cc	2.280 Gy
+Lung 6000 30fx		85	CENTRAL LUNG1	6000	30	UnApproved	Achieved				33.780 Gy	4.23%	13.596 Gy	14.89%	75.63%	11.860 Gy	63.421 Gy	27.744 Gy	33.91%	18.25 cc	2.313 Gy
+Lung 6000 30fx		86	CENTRAL LUNGM	6000	30	UnApproved	Achieved				41.601 Gy	6.27%	17.312 Gy	21.19%	64.83%	11.984 Gy	64.710 Gy	28.783 Gy	36.22%	19.49 cc	2.061 Gy
+Lung 6000 30fx		87	TEST	6000	30	UnApproved	Achieved				40.421 Gy	5.77%	16.875 Gy	18.42%	63.81%	11.511 Gy	64.856 Gy	28.346 Gy	34.64%	18.64 cc	2.374 Gy
+Lung 6000 30fx		88	TEST1	6000	30	UnApproved	Achieved				41.601 Gy	6.27%	17.312 Gy	21.19%	64.83%	11.984 Gy	64.710 Gy	28.783 Gy	36.22%	19.49 cc	2.061 Gy
+Lung 6000 30fx		89	RML LUNG	6000	30	UnApproved	Achieved	100.00%	86.30%	58.733 Gy	18.114 Gy	1.45%	5.613 Gy	14.81%	44.34%	9.475 Gy	56.100 Gy	7.950 Gy	0.00%	0.00 cc	1.093 Gy
+Lung 6000 30fx		90	RML LUNG1	6000	30	UnApproved	Achieved	100.00%	86.30%	58.733 Gy	18.114 Gy	1.45%	5.613 Gy	14.81%	44.34%	9.475 Gy	56.100 Gy	7.950 Gy	0.00%	0.00 cc	1.093 Gy
+Lung 6000 30fx		91	Med JS	6000	30	UnApproved	Achieved					3.34%	8.390 Gy				62.018 Gy	23.175 Gy	13.47%	4.73 cc	
+Lung 6000 30fx		92	Left Lung1	6000	30	UnApproved	Achieved				28.475 Gy	0.86%	6.588 Gy				51.379 Gy	12.705 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		93	Lung	6000	30	UnApproved	Achieved				31.256 Gy	1.05%	6.898 Gy				55.736 Gy	13.566 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		94	Plan Sum	5100	21	UnApproved	Achieved				26.568 Gy	0.57%	5.863 Gy				47.376 Gy	11.531 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		95	Plan Sum	5100	21	UnApproved	Achieved				26.568 Gy	0.57%	5.863 Gy				47.376 Gy	11.531 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		96	LUL	6000	30	UnApproved	Achieved				20.149 Gy	1.17%	9.120 Gy	21.12%	57.02%	13.550 Gy	57.961 Gy	11.164 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		97	Lung	6000	30	UnApproved	Achieved				14.106 Gy	0.00%	0.996 Gy	10.87%	38.96%	7.224 Gy	60.567 Gy	9.491 Gy	0.11%	0.05 cc	
+Lung 6000 30fx		98	RULmass_LN	6000	30	UnApproved	Achieved				25.374 Gy	6.49%	10.785 Gy				41.091 Gy	12.331 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		99	RULmass_LN1	6000	30	UnApproved	Achieved				25.374 Gy	6.49%	10.785 Gy				41.091 Gy	12.331 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		100	IMRT	6000	30	UnApproved	Achieved				44.835 Gy	2.68%	19.289 Gy	29.26%	68.82%	16.640 Gy	64.283 Gy	23.897 Gy	17.51%	9.27 cc	1.351 Gy
+Lung 6000 30fx		101	IMRT1	6000	30	UnApproved	Achieved				44.051 Gy	2.39%	18.912 Gy	28.74%	68.39%	16.580 Gy	62.928 Gy	23.518 Gy	16.04%	8.49 cc	1.333 Gy
+Lung 6000 30fx		102	IMRT best	6000	30	UnApproved	Achieved				43.974 Gy	2.30%	18.810 Gy	28.48%	68.17%	16.534 Gy	62.976 Gy	23.557 Gy	16.23%	8.60 cc	1.329 Gy
+Lung 6000 30fx		103	IMRT best1	6000	30	UnApproved	Achieved				43.113 Gy	2.21%	18.964 Gy	29.33%	70.86%	17.177 Gy	63.601 Gy	23.620 Gy	13.67%	7.24 cc	1.198 Gy
+Lung 6000 30fx		104	RIGHT LUNG	6000	30	PlanningApproved	Achieved				44.064 Gy	2.62%	19.323 Gy	28.84%	70.44%	16.838 Gy	63.606 Gy	23.701 Gy	16.29%	8.62 cc	1.206 Gy
+Lung 6000 30fx		105	RLL mass	6000	30	UnApproved	Achieved				40.219 Gy	1.98%	19.904 Gy	30.57%	76.61%	17.738 Gy	64.793 Gy	25.272 Gy	16.45%	8.71 cc	1.394 Gy
+Lung 6000 30fx		106	RLL mass1	6000	30	UnApproved	Achieved				40.994 Gy	1.39%	19.422 Gy	30.58%	77.54%	17.832 Gy	64.248 Gy	25.034 Gy	15.70%	8.31 cc	1.400 Gy
+Lung 6000 30fx		107	RLL mass2	6000	30	UnApproved	Achieved				42.303 Gy	1.25%	19.185 Gy	30.47%	77.14%	17.815 Gy	64.461 Gy	25.014 Gy	15.66%	8.29 cc	1.402 Gy
+Lung 6000 30fx		108	RLUNG ACCUROS	6000	30	UnApproved	Achieved				44.064 Gy	2.62%	19.323 Gy	28.84%	70.44%	16.838 Gy	63.606 Gy	23.701 Gy	16.29%	8.62 cc	1.206 Gy
+Lung 6000 30fx		109	Plan Sum	11471.15571	8	UnApproved	Achieved				45.065 Gy	19.90%	25.279 Gy				61.757 Gy	26.372 Gy	8.02%	3.10 cc	57.200 Gy
+Lung 6000 30fx		110	Plan Sum	12000	60	PlanningApproved	Achieved						18.983 Gy				62.351 Gy	29.775 Gy		11.15 cc	
+Lung 6000 30fx		111	RUL GTV LNs	6000	30	UnApproved	Achieved				48.428 Gy	2.21%	12.594 Gy	23.04%	75.01%	16.106 Gy	64.810 Gy	37.737 Gy	33.76%	18.26 cc	57.898 Gy
+Lung 6000 30fx		112	RUL GTV LNs1	6000	30	UnApproved	Achieved				48.428 Gy	2.21%	12.594 Gy	23.04%	75.01%	16.106 Gy	64.810 Gy	37.737 Gy	33.76%	18.26 cc	57.898 Gy
+Lung 6000 30fx		113	RUL GTV RP	6000	30	UnApproved	Achieved														57.598 Gy
+Lung 6000 30fx		114	RUL GTV RP1	6000	30	UnApproved	Achieved														57.598 Gy
+Lung 6000 30fx		115	Plan Sum	13000	65	PlanningApproved	Achieved				39.700 Gy	3.36%	9.387 Gy				59.055 Gy	17.095 Gy	0.02%	0.01 cc	
+Lung 6000 30fx		116	LEFT LUNG	6000	30	UnApproved	Achieved	100.00%	90.50%	59.112 Gy	24.626 Gy	0.00%	1.753 Gy	13.73%	40.83%	8.754 Gy	60.543 Gy	7.947 Gy	0.17%	0.07 cc	1.984 Gy
+Lung 6000 30fx		117	L hilarLN GT1	6000	30	UnApproved	Achieved	100.00%	87.30%	58.262 Gy	31.935 Gy	0.75%	3.820 Gy	17.76%	47.49%	10.627 Gy	62.641 Gy	11.292 Gy	2.16%	0.97 cc	1.162 Gy
+Lung 6000 30fx		118	L hilarLN GT5	6000	30	UnApproved	Achieved	100.00%	87.60%	58.269 Gy	35.956 Gy	0.75%	3.889 Gy	17.28%	48.13%	10.499 Gy	62.891 Gy	11.250 Gy	2.73%	1.22 cc	1.157 Gy
+Lung 6000 30fx		119	L hilarLN GTV	6000	30	UnApproved	Achieved	100.00%	87.30%	58.262 Gy	31.935 Gy	0.75%	3.820 Gy	17.76%	47.49%	10.627 Gy	62.641 Gy	11.292 Gy	2.16%	0.97 cc	1.162 Gy
+Lung 6000 30fx		120	L hilarLN GT4	6000	30	UnApproved	Achieved	100.00%	88.10%	58.196 Gy	31.871 Gy	0.74%	4.036 Gy	17.51%	47.23%	10.443 Gy	63.022 Gy	11.393 Gy	3.69%	1.65 cc	1.147 Gy
+Lung 6000 30fx		121	Plan Sum1	7000	35	UnApproved	Achieved				37.637 Gy	0.00%	6.688 Gy	21.28%	46.25%	12.999 Gy	72.712 Gy	26.655 Gy	16.73%	1.42 cc	19.617 Gy
+Lung 6000 30fx		122	Plan Sum NEW	7000	35	UnApproved	Achieved				37.513 Gy	0.00%	5.167 Gy	23.78%	56.48%	15.225 Gy	71.371 Gy	19.368 Gy	6.16%	2.28 cc	18.302 Gy
+Lung 6000 30fx		123	R Lung+Med RT	6000	30	PlanningApproved	Achieved				32.280 Gy	0.00%	3.646 Gy	19.29%	51.56%	11.989 Gy	61.575 Gy	15.732 Gy	2.82%	1.04 cc	16.355 Gy
+Lung 6000 30fx		124	RUL+R Med	6000	30	UnApproved	Achieved				35.469 Gy	16.33%	17.605 Gy	29.46%	66.88%	18.150 Gy	60.087 Gy	23.578 Gy	0.12%	0.04 cc	
+Lung 6000 30fx		125	R lung	6000	30	UnApproved	Achieved	100.00%	83.40%	57.811 Gy	23.834 Gy	1.03%	13.148 Gy	26.32%	54.40%	14.213 Gy	38.881 Gy	10.069 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		126	R lung1	6000	30	UnApproved	Achieved	100.00%	84.80%	57.412 Gy	26.857 Gy	1.09%	14.159 Gy	25.75%	60.20%	14.609 Gy	41.264 Gy	11.423 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		127	R lung2	6000	30	UnApproved	Achieved	100.00%	79.80%	57.132 Gy	27.753 Gy	1.05%	11.282 Gy	26.58%	56.49%	14.800 Gy	45.607 Gy	11.667 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		128	R lung3	6000	30	UnApproved	Achieved	100.00%	85.60%	58.341 Gy	32.850 Gy	1.24%	10.952 Gy	27.01%	57.33%	15.176 Gy	47.897 Gy	11.716 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		129	R lungbest	6000	30	UnApproved	Achieved	100.00%	85.60%	58.341 Gy	32.850 Gy	1.24%	10.952 Gy	27.01%	57.33%	15.176 Gy	47.897 Gy	11.716 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		130	R lungbest1	6000	30	UnApproved	Achieved	100.00%	84.30%	58.574 Gy	31.383 Gy	1.29%	11.789 Gy	27.05%	55.93%	14.864 Gy	45.712 Gy	10.731 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		131	Rt Lung	6000	30	UnApproved	Achieved				27.390 Gy	2.42%	12.452 Gy	29.23%	71.28%	19.002 Gy	63.502 Gy	17.770 Gy	3.34%	1.07 cc	
+Lung 6000 30fx		132	Rt Lung1	6000	30	UnApproved	Achieved				27.788 Gy	2.42%	12.889 Gy				63.419 Gy	17.763 Gy	2.71%	0.87 cc	
+Lung 6000 30fx		133	Plan2	6000	30	UnApproved	Achieved	98.90%	74.70%	56.302 Gy	51.678 Gy	0.00%	1.945 Gy				60.940 Gy	19.256 Gy	0.84%	0.21 cc	
+Lung 6000 30fx		134	Lung mass+LNs	6000	30	UnApproved	Achieved							33.41%	83.74%	19.856 Gy					
+Lung 6000 30fx		135	butterfly	6000	30	UnApproved	Achieved	100.00%	66.40%	56.690 Gy				26.79%	56.10%	15.455 Gy					3.348 Gy
+Lung 6000 30fx		136	butterfly1	6000	30	UnApproved	Achieved	100.00%	73.30%	56.908 Gy				29.87%	57.04%	16.582 Gy					3.501 Gy
+Lung 6000 30fx		137	butterfly2	6000	30	UnApproved	Achieved	100.00%	72.50%	57.814 Gy				30.78%	58.01%	17.407 Gy					3.739 Gy
+Lung 6000 30fx		138	butterfly3	6000	30	UnApproved	Achieved	100.00%	77.90%	57.078 Gy				30.13%	58.49%	17.415 Gy					3.719 Gy
+Lung 6000 30fx		139	IMRTBEST	6000	30	UnApproved	Achieved	100.00%	77.90%	57.078 Gy				30.13%	58.49%	17.415 Gy					3.719 Gy
+Lung 6000 30fx		140	RMLhilumsub	6000	30	UnApproved	Achieved	100.00%	77.90%	57.078 Gy				30.13%	58.49%	17.415 Gy					3.719 Gy
+Lung 6000 30fx		141	RMLhilumsu #	6000	30	PlanningApproved	Achieved	100.00%	77.90%	57.074 Gy				30.10%	58.48%	17.400 Gy					3.703 Gy
+Lung 6000 30fx		142	vmat	6000	30	UnApproved	Achieved	100.00%	82.00%	57.483 Gy				26.43%	89.33%	16.201 Gy					3.128 Gy
+Lung 6000 30fx		143	RULLN3PARbest	6000	30	UnApproved	Achieved	100.00%	90.60%	58.981 Gy	43.510 Gy	2.12%	8.849 Gy	29.85%	63.84%	18.121 Gy	63.175 Gy	19.333 Gy	10.53%	4.37 cc	13.989 Gy
+Lung 6000 30fx		144	RULLN3PARTAR1	6000	30	UnApproved	Achieved	100.00%	89.50%	59.030 Gy	39.260 Gy	1.84%	9.178 Gy	30.14%	65.05%	18.382 Gy	64.558 Gy	19.178 Gy	11.21%	4.65 cc	14.326 Gy
+Lung 6000 30fx		145	RULLN3PARTAR2	6000	30	UnApproved	Achieved	100.00%	90.60%	58.981 Gy	43.510 Gy	2.12%	8.849 Gy	29.85%	63.84%	18.121 Gy	63.175 Gy	19.333 Gy	10.53%	4.37 cc	13.989 Gy
+Lung 6000 30fx		146	RUL LN	6000	30	UnApproved	Achieved	100.00%	90.60%	58.981 Gy	43.510 Gy	2.12%	8.849 Gy	29.85%	63.84%	18.121 Gy	63.175 Gy	19.333 Gy	10.53%	4.37 cc	13.989 Gy
+Lung 6000 30fx		147	RUL LNthurs	6000	30	UnApproved	Achieved	100.00%	87.70%	58.460 Gy	43.901 Gy	2.03%	9.260 Gy	31.05%	65.34%	18.262 Gy	64.217 Gy	20.275 Gy	15.62%	6.48 cc	14.761 Gy
+Lung 6000 30fx		148	LUL	6000	30	UnApproved	Achieved				20.181 Gy	0.83%	3.908 Gy	18.72%	52.52%	10.797 Gy	33.954 Gy	9.127 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		149	lung1	6000	30	UnApproved	Achieved	100.00%	84.20%	58.299 Gy	32.558 Gy	4.74%	19.206 Gy				63.566 Gy	27.245 Gy	28.77%	16.40 cc	63.893 Gy
+Lung 6000 30fx		150	lungbestarc1	6000	30	UnApproved	Achieved	100.00%	77.60%	58.156 Gy	37.973 Gy	4.77%	19.012 Gy				66.514 Gy	27.066 Gy	28.97%	16.51 cc	65.557 Gy
+Lung 6000 30fx		151	lungbestarc2	6000	30	UnApproved	Achieved	100.00%	80.80%	57.957 Gy	39.047 Gy	4.55%	18.997 Gy				66.289 Gy	27.484 Gy	28.79%	16.41 cc	63.414 Gy
+Lung 6000 30fx		152	lungIMRT2	6000	30	UnApproved	Achieved	95.50%	62.90%	55.671 Gy	47.724 Gy	8.63%	18.331 Gy				61.202 Gy	26.578 Gy	4.04%	2.30 cc	60.376 Gy
+Lung 6000 30fx		153	lungmon	6000	30	UnApproved	Achieved	100.00%	83.20%	57.911 Gy	37.850 Gy	5.08%	21.034 Gy				64.936 Gy	27.780 Gy	28.98%	16.52 cc	64.779 Gy
+Lung 6000 30fx		154	lungmon1	6000	30	UnApproved	Achieved	100.00%	82.70%	57.902 Gy	38.516 Gy	4.90%	19.333 Gy				64.991 Gy	27.725 Gy	29.10%	16.59 cc	64.316 Gy
+Lung 6000 30fx		155	Plan Sum	12000	60	UnApproved	Achieved				23.812 Gy	0.00%	11.562 Gy				37.386 Gy	10.432 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		156	CentralluTEST	6000	30	UnApproved	Achieved	100.00%	89.00%	58.289 Gy	12.286 Gy	0.00%	1.213 Gy	13.16%	37.32%	7.512 Gy	36.363 Gy	6.275 Gy	0.00%	0.00 cc	1.010 Gy
+Lung 6000 30fx		157	Central lung	6000	30	UnApproved	Achieved	100.00%	85.70%	57.999 Gy	14.629 Gy	0.00%	1.025 Gy	11.65%	36.12%	6.997 Gy	43.826 Gy	8.649 Gy	0.00%	0.00 cc	0.886 Gy
+Lung 6000 30fx		158	Central lung1	6000	30	UnApproved	Achieved	100.00%	85.60%	57.828 Gy	14.701 Gy	0.00%	0.977 Gy	11.51%	35.48%	6.981 Gy	41.786 Gy	8.909 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		159	Central lung2	6000	30	UnApproved	Achieved	100.00%	85.70%	57.999 Gy	14.629 Gy	0.00%	1.025 Gy	11.65%	36.12%	6.997 Gy	43.826 Gy	8.649 Gy	0.00%	0.00 cc	0.886 Gy
+Lung 6000 30fx		160	Central lung3	6000	30	UnApproved	Achieved	100.00%	89.90%	58.580 Gy	16.773 Gy	0.00%	0.978 Gy	11.61%	35.48%	6.949 Gy	45.483 Gy	9.435 Gy	0.00%	0.00 cc	0.871 Gy
+Lung 6000 30fx		161	Central lung4	6000	30	UnApproved	Achieved	100.00%	92.00%	58.721 Gy	17.294 Gy	0.00%	1.275 Gy	12.38%	38.05%	7.474 Gy	48.695 Gy	9.082 Gy	0.00%	0.00 cc	0.983 Gy
+Lung 6000 30fx		162	LUL	6000	30	UnApproved	Achieved				32.703 Gy	16.70%	21.820 Gy				62.901 Gy	41.812 Gy	24.62%	11.25 cc	
+Lung 6000 30fx		163	RLL lesion	6000	30	UnApproved	Achieved				39.005 Gy	0.00%	12.806 Gy				38.724 Gy	15.361 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		164	RUL NODES	6000	30	UnApproved	Achieved				38.674 Gy	0.19%	4.470 Gy	23.17%	49.77%	13.293 Gy	62.982 Gy	11.120 Gy	0.82%	0.31 cc	3.306 Gy
+Lung 6000 30fx		165	RUL NODES1	6000	30	UnApproved	Achieved				38.674 Gy	0.19%	4.470 Gy	23.17%	49.77%	13.293 Gy	62.982 Gy	11.120 Gy	0.82%	0.31 cc	3.306 Gy
+Lung 6000 30fx		166	LLL and Hilum	6000	30	UnApproved	Achieved				15.915 Gy	0.10%	9.515 Gy	19.52%	35.70%	11.227 Gy	51.341 Gy	6.050 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		167	RUL NODES	6000	30	UnApproved	Achieved				41.957 Gy	2.74%	9.551 Gy	27.96%	68.65%	16.920 Gy	64.107 Gy	24.478 Gy	5.06%	1.68 cc	33.610 Gy
+Lung 6000 30fx		168	RUL NODES1	6000	30	UnApproved	Achieved				39.010 Gy	1.82%	8.267 Gy	22.71%	65.25%	14.930 Gy	63.693 Gy	19.224 Gy	2.79%	0.92 cc	28.546 Gy
+Lung 6000 30fx		169	THYMUS	5400	30	UnApproved	Achieved				13.784 Gy	1.51%	3.872 Gy				29.356 Gy	6.042 Gy	0.00%	0.00 cc	0.681 Gy
+Lung 6000 30fx		170	THYMUS1	5400	30	UnApproved	Achieved				13.784 Gy	1.51%	3.872 Gy				29.356 Gy	6.042 Gy	0.00%	0.00 cc	0.681 Gy
+Lung 6000 30fx		171	imrt13	6000	30	UnApproved	Achieved	96.40%	67.50%	55.373 Gy	44.891 Gy	7.07%	10.798 Gy	35.15%	58.76%	18.800 Gy	60.224 Gy	47.578 Gy	0.17%	0.09 cc	61.412 Gy
+Lung 6000 30fx		172	L LungMedist	6000	30	UnApproved	Achieved	96.10%	66.50%	55.103 Gy	45.672 Gy	6.78%	10.357 Gy				60.610 Gy	48.369 Gy	0.47%	0.23 cc	61.596 Gy
+Lung 6000 30fx		173	RUL NODE	6000	30	UnApproved	Achieved	99.60%	74.40%	57.372 Gy	36.532 Gy	0.00%	0.988 Gy	12.06%	37.55%	8.940 Gy	30.533 Gy	9.553 Gy	0.00%	0.00 cc	58.490 Gy
+Lung 6000 30fx		174	RUL NODE1	6000	30	UnApproved	Achieved				36.532 Gy	0.00%	0.988 Gy	12.06%	37.55%	8.940 Gy	30.533 Gy	9.553 Gy	0.00%	0.00 cc	58.490 Gy
+Lung 6000 30fx		175	RUL NODES	6000	30	UnApproved	Achieved	100.00%	89.40%	58.392 Gy	52.574 Gy	0.00%	1.113 Gy	12.18%	37.62%	8.929 Gy	32.457 Gy	10.547 Gy	0.00%	0.00 cc	59.607 Gy
+Lung 6000 30fx		176	RUL NODES1	6000	30	UnApproved	Achieved	100.00%	90.00%	58.847 Gy	47.146 Gy	0.00%	1.129 Gy	12.01%	37.84%	8.925 Gy	33.651 Gy	10.945 Gy	0.00%	0.00 cc	60.767 Gy
+Lung 6000 30fx		177	RUL NODE 6X	6000	30	UnApproved	Achieved	100.00%	89.50%	58.600 Gy	49.717 Gy	0.00%	1.197 Gy	12.87%	37.81%	9.372 Gy	36.560 Gy	11.362 Gy	0.00%	0.00 cc	60.983 Gy
+Lung 6000 30fx		178	RUL NODE 6X1	6000	30	UnApproved	Achieved	100.00%	86.70%	58.413 Gy	49.651 Gy	0.00%	1.192 Gy	12.81%	37.01%	9.230 Gy	36.411 Gy	11.026 Gy	0.00%	0.00 cc	61.316 Gy
+Lung 6000 30fx		179	Lt Lung	6000	30	PlanningApproved	Achieved				32.976 Gy	0.00%	1.702 Gy	17.58%	42.50%	12.249 Gy	40.140 Gy	14.472 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		180	TJUH LT LUNG	6000	30	UnApproved	Achieved				32.976 Gy	0.00%	1.702 Gy	17.58%	42.50%	12.249 Gy	40.140 Gy	14.472 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		181	LUL GTV LNs	6000	30	UnApproved	Achieved				22.172 Gy	0.48%	6.426 Gy	13.16%	50.68%	9.772 Gy	68.096 Gy	16.218 Gy	9.66%	4.53 cc	0.552 Gy
+Lung 6000 30fx		182	LUL GTV LNs1	6000	30	UnApproved	Achieved				19.085 Gy	0.45%	6.367 Gy	13.02%	50.70%	9.757 Gy	65.700 Gy	15.356 Gy	8.97%	4.20 cc	0.545 Gy
+Lung 6000 30fx		183	Plan Sum	7400	37	PlanningApproved	Achieved				46.015 Gy	2.13%	15.013 Gy	29.40%	53.63%	17.317 Gy	77.241 Gy	22.907 Gy	12.74%	5.62 cc	2.716 Gy
+Lung 6000 30fx		184	initial	6000	30	UnApproved	Achieved							30.04%	59.19%	16.568 Gy					
+Lung 6000 30fx		185	Plan Sum	11000	34	UnApproved	Achieved														
+Lung 6000 30fx		186	RML-RLL	6000	30	UnApproved	Achieved							29.56%	59.26%	16.485 Gy					
+Lung 6000 30fx		187	RUL	6000	30	UnApproved	Achieved	100.00%	89.30%	58.320 Gy	26.008 Gy	0.69%	3.377 Gy	13.45%	39.72%	8.079 Gy	63.842 Gy	14.144 Gy	8.29%	3.70 cc	1.002 Gy
+Lung 6000 30fx		188	RUL1	6000	30	UnApproved	Achieved	100.00%	88.80%	58.371 Gy	25.760 Gy	0.67%	3.275 Gy	12.95%	39.07%	7.908 Gy	63.994 Gy	14.450 Gy	8.38%	3.73 cc	
+Lung 6000 30fx		189	LUL	6000	30	UnApproved	Achieved				47.141 Gy	0.00%	1.365 Gy				56.923 Gy	13.525 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		190	Plan Sum	10200	51	UnApproved	Achieved														
+Lung 6000 30fx		191	Plan Sum	10200	51	UnApproved	Achieved														
+Lung 6000 30fx		192	RML	6000	30	UnApproved	Achieved														
+Lung 6000 30fx		193	LUL NODES	6000	30	UnApproved	Achieved	100.00%	82.00%	58.762 Gy	24.634 Gy	0.01%	1.438 Gy	14.03%	31.45%	7.814 Gy	63.688 Gy	8.724 Gy	2.55%	0.94 cc	0.634 Gy
+Lung 6000 30fx		194	LUL NODES1	6000	30	UnApproved	Achieved	100.00%	71.90%	56.114 Gy	21.144 Gy	0.00%	1.224 Gy	12.12%	31.32%	7.265 Gy	65.167 Gy	8.934 Gy	3.04%	1.12 cc	0.545 Gy
+Lung 6000 30fx		195	LUL NODES2	6000	30	UnApproved	Achieved	100.00%	72.10%	56.307 Gy	17.990 Gy	0.00%	1.235 Gy	12.19%	31.98%	7.287 Gy	65.018 Gy	9.398 Gy	3.03%	1.11 cc	0.544 Gy
+Lung 6000 30fx		196	LUL NODES4	6000	30	UnApproved	Achieved	100.00%	77.50%	57.429 Gy	27.185 Gy	0.02%	1.424 Gy	13.64%	32.73%	7.856 Gy	63.839 Gy	9.081 Gy	2.88%	1.06 cc	0.605 Gy
+Lung 6000 30fx		197	LUL NODES6	6000	30	UnApproved	Achieved	100.00%	75.90%	56.758 Gy	25.262 Gy	0.02%	1.396 Gy	13.75%	31.07%	7.764 Gy	65.036 Gy	8.776 Gy	2.85%	1.05 cc	0.604 Gy
+Lung 6000 30fx		198	LUL NODES7	6000	30	UnApproved	Achieved	100.00%	76.40%	57.362 Gy	22.263 Gy	0.01%	1.406 Gy	14.00%	30.38%	7.770 Gy	64.985 Gy	8.704 Gy	2.85%	1.05 cc	0.605 Gy
+Lung 6000 30fx		199	LUL NODES8	6000	30	UnApproved	Achieved	100.00%	82.00%	58.762 Gy	24.634 Gy	0.01%	1.438 Gy	14.03%	31.45%	7.814 Gy	63.688 Gy	8.724 Gy	2.55%	0.94 cc	0.634 Gy
+Lung 6000 30fx		200	lung	6000	30	UnApproved	Achieved				25.557 Gy	0.90%	5.156 Gy	20.20%	48.24%	11.853 Gy	57.181 Gy	11.901 Gy	0.01%	0.00 cc	
+Lung 6000 30fx		201	lungr	6000	30	UnApproved	Achieved				27.002 Gy	0.59%	4.433 Gy	22.68%	49.68%	12.262 Gy	57.308 Gy	11.547 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		202	RT Lung	6000	30	UnApproved	Achieved				27.002 Gy	0.59%	4.433 Gy	22.68%	49.68%	12.262 Gy	57.308 Gy	11.547 Gy	0.00%	0.00 cc	
+Lung 6000 30fx		203	CIVCO_re_opt	6600	33	UnApproved	Achieved	95.00%	80.30%	60.157 Gy		2.41%	7.765 Gy	19.25%	56.87%	12.357 Gy	60.293 Gy	11.185 Gy	0.08%	0.04 cc	
+Lung 6000 30fx		204	LT Lung	6000	30	UnApproved	Achieved				29.381 Gy	8.11%	19.596 Gy	29.14%	87.83%	19.615 Gy	62.495 Gy	23.729 Gy	8.81%	2.96 cc	
+Lung 6000 30fx		205	RLL LUNG MAS3	6000	30	UnApproved	Achieved	100.00%	90.10%	58.817 Gy	36.116 Gy	1.34%	11.318 Gy				61.435 Gy	17.434 Gy	1.64%	0.72 cc	
+Lung 6000 30fx		206	RLL LUNG MASS	6000	30	UnApproved	Achieved	100.00%	90.10%	58.817 Gy	36.116 Gy	1.34%	11.318 Gy				61.435 Gy	17.434 Gy	1.64%	0.72 cc	
+Lung 6000 30fx		207	RLL RESCAN	6000	30	UnApproved	Achieved	100.00%	85.70%	58.701 Gy				14.21%	73.61%	11.452 Gy					
+Lung 6000 30fx		208	RLL mass LN	6000	30	UnApproved	Achieved	100.00%	87.10%	58.699 Gy	25.249 Gy	1.36%	9.340 Gy	12.96%	50.72%	9.377 Gy	64.430 Gy	11.968 Gy	5.42%	1.87 cc	0.647 Gy
+Lung 6000 30fx		209	RLL mass LN1	6000	30	UnApproved	Achieved	100.00%	87.10%	58.699 Gy	25.249 Gy	1.36%	9.340 Gy	12.96%	50.72%	9.377 Gy	64.430 Gy	11.968 Gy	5.42%	1.87 cc	0.647 Gy
+Lung 6000 30fx		210	RUL NODES BL	6000	30	UnApproved	Achieved	100.00%	86.40%	58.972 Gy	38.626 Gy	0.00%	1.193 Gy	16.31%	41.82%	9.801 Gy	61.374 Gy	9.899 Gy	0.47%	0.14 cc	3.254 Gy
+Lung 6000 30fx		211	RUL NODES BL1	6000	30	UnApproved	Achieved	100.00%	81.30%	57.753 Gy	32.378 Gy	0.00%	1.262 Gy	16.28%	43.16%	10.225 Gy	61.640 Gy	10.107 Gy	0.36%	0.11 cc	
+Lung 6000 30fx		212	RUL NODES BL2	6000	30	UnApproved	Achieved	100.00%	86.40%	58.972 Gy	38.627 Gy	0.00%	1.193 Gy	16.31%	41.82%	9.801 Gy	61.374 Gy	9.899 Gy	0.47%	0.14 cc	
+Lung 6000 30fx		213	Lt Apex	6000	30	UnApproved	Achieved							3.81%	14.61%	3.324 Gy					
+Lung 6000 30fx		214	LUL+LN RP	4600	23	PlanningApproved	Achieved	100.00%	86.90%	44.750 Gy	35.012 Gy	0.12%	14.991 Gy	30.09%	69.24%	16.752 Gy	49.026 Gy	15.102 Gy	0.00%	0.00 cc	1.149 Gy
+Lung 6000 30fx		215	LUL	6000	30	UnApproved	Achieved	100.50%	88.90%	59.368 Gy	43.995 Gy	13.81%	22.865 Gy	41.23%	76.76%	23.024 Gy	63.479 Gy	20.574 Gy	3.78%	1.68 cc	
+Lung 6000 30fx		216	LUL2	6000	30	UnApproved	Achieved	96.50%	79.70%	55.848 Gy	36.858 Gy	7.84%	20.019 Gy	37.28%	77.08%	22.011 Gy	63.798 Gy	17.329 Gy	2.16%	0.96 cc	1.444 Gy
+Lung 6000 30fx		217	LUL+LN RP	6000	30	UnApproved	Achieved	100.00%	86.90%	58.370 Gy	45.668 Gy	9.01%	19.554 Gy	35.38%	75.01%	21.850 Gy	63.946 Gy	19.699 Gy	3.58%	1.59 cc	1.499 Gy
+Lung 6000 30fx		218	LUL+LN RP1	6000	30	UnApproved	Achieved	100.00%	83.90%	58.075 Gy	45.360 Gy	9.17%	20.051 Gy	36.06%	75.24%	21.928 Gy	64.346 Gy	19.560 Gy	3.84%	1.71 cc	1.495 Gy
+Lung 6000 30fx		219	LUL+LN RP	6000	30	UnApproved	Achieved	99.50%	82.60%	57.602 Gy	43.125 Gy	9.32%	20.746 Gy	37.17%	75.24%	22.260 Gy	64.210 Gy	20.390 Gy	4.31%	1.92 cc	1.531 Gy
+Lung 6000 30fx		220	LUL	6000	30	UnApproved	Achieved	97.70%	80.30%	56.401 Gy	43.055 Gy	9.29%	19.924 Gy	36.06%	74.67%	21.438 Gy	64.514 Gy	20.132 Gy	5.15%	2.29 cc	1.469 Gy
+Lung 6000 30fx		221	LUL1	6000	30	UnApproved	Achieved	99.50%	84.70%	57.979 Gy	41.323 Gy	9.11%	19.088 Gy	35.84%	75.16%	21.870 Gy	64.486 Gy	19.706 Gy	3.93%	1.75 cc	1.486 Gy
+Lung 6000 30fx		222	LUL2	6000	30	UnApproved	Achieved	99.50%	84.70%	57.979 Gy	41.323 Gy	9.11%	19.088 Gy	35.84%	75.16%	21.870 Gy	64.486 Gy	19.706 Gy	3.93%	1.75 cc	1.486 Gy
+Lung 6000 30fx		223	LUL	5040	28	UnApproved	Achieved	100.00%	77.20%	48.223 Gy	35.332 Gy	3.04%	8.365 Gy	27.88%	58.59%	14.502 Gy	55.635 Gy	21.166 Gy	0.00%	0.00 cc	43.038 Gy
+Lung 6000 30fx		224	LUL1	5040	28	UnApproved	Achieved	100.00%	76.70%	48.311 Gy	33.750 Gy	3.08%	7.996 Gy	28.21%	58.74%	14.554 Gy	55.664 Gy	20.884 Gy	0.00%	0.00 cc	41.583 Gy
+Lung 6000 30fx		225	LUL2	5040	28	UnApproved	Achieved	100.00%	74.80%	48.754 Gy	30.793 Gy	3.09%	8.615 Gy	27.46%	59.00%	14.239 Gy	53.424 Gy	21.323 Gy	0.00%	0.00 cc	42.859 Gy
+Lung 6000 30fx		226	LUL3	5040	28	UnApproved	Achieved	100.00%	77.30%	48.224 Gy	37.575 Gy	3.05%	8.474 Gy	27.48%	58.28%	14.159 Gy	55.803 Gy	21.216 Gy	0.00%	0.00 cc	42.401 Gy
+Lung 6000 30fx		227	lul imrt	5040	28	UnApproved	Achieved	100.00%	67.10%	47.579 Gy	37.981 Gy	3.28%	7.852 Gy	26.08%	53.37%	12.759 Gy	56.144 Gy	20.920 Gy	0.00%	0.00 cc	45.826 Gy
+Lung 6000 30fx		228	lul imrt1	5040	28	UnApproved	Achieved	100.00%	76.70%	47.336 Gy	37.543 Gy	3.93%	8.823 Gy	27.21%	54.59%	13.433 Gy	54.266 Gy	21.736 Gy	0.00%	0.00 cc	48.284 Gy
+Lung 6000 30fx		229	lul imrt2	5040	28	UnApproved	Achieved	100.00%	80.20%	48.274 Gy	43.060 Gy	4.87%	9.451 Gy	30.27%	49.99%	13.532 Gy	53.335 Gy	21.796 Gy	0.00%	0.00 cc	44.362 Gy
+Lung 6000 30fx		230	lul imrt3	5040	28	UnApproved	Achieved	100.00%	81.30%	48.004 Gy	46.783 Gy	5.83%	9.779 Gy	31.25%	48.98%	13.653 Gy	53.063 Gy	22.149 Gy	0.00%	0.00 cc	46.087 Gy
+Lung 6000 30fx		231	lul imrtbest	5040	28	UnApproved	Achieved	100.00%	80.20%	48.274 Gy	43.060 Gy	4.87%	9.451 Gy	30.27%	49.99%	13.532 Gy	53.335 Gy	21.796 Gy	0.00%	0.00 cc	44.362 Gy
+Lung 6000 30fx		232	R HILUM1	4500	30	UnApproved	Achieved				40.044 Gy	0.00%	2.679 Gy				46.691 Gy	16.551 Gy	0.00%	0.00 cc	19.944 Gy

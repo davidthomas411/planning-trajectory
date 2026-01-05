@@ -1,0 +1,4 @@
+protocol_name,patient_id,plan_id,attempt_number,structure,structure_tg263,metric_display,metric_type,metric_subtype,priority,goal_operator,goal_value,achieved_value,pass,margin,normalized_margin,near_limit,percentile
+Brain SRS 1fx,PT-0001,PLN-0001,1,Brainstem,Brainstem,D0.03cc[Gy],Dose,D,1,<=,12.0,11.2,True,-0.8,-0.067,False,82.0
+Brain SRS 1fx,PT-0001,PLN-0001,1,OpticNrv_L,OpticNrv_L,Max[Gy],Dose,Max,2,<=,8.0,8.4,False,0.4,0.05,True,35.0
+Brain SRS 1fx,PT-0001,PLN-0001,2,OpticNrv_L,OpticNrv_L,Max[Gy],Dose,Max,2,<=,8.0,7.6,True,-0.4,-0.05,False,60.0
