@@ -6,6 +6,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from shutil import copy2
 from typing import Any, Dict, List, Optional
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +19,8 @@ PHASE3_METRICS_PATH = DERIVED_DIR / "phase3_metrics.json"
 PHASE3_BASELINES_PATH = DERIVED_DIR / "phase3_baselines.json"
 ABSTRACT_PATH = ROOT / "draft_abstract.md"
 CONSTRAINTS_PATH = DERIVED_DIR / "constraint_features.jsonl"
+LOGO_SOURCE = ROOT / "TJU_logo.jpg"
+LOGO_TARGET = DOCS_DIR / "assets" / "tju-logo.jpg"
 
 
 INLINE_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
@@ -210,7 +213,13 @@ def main() -> None:
   <div class=\"page\">
     <header class=\"hero\">
       <div>
-        <p class=\"tag\">Planning Trajectory Learning</p>
+        <div class=\"brand\">
+          <img class=\"logo\" src=\"assets/tju-logo.jpg\" alt=\"Thomas Jefferson University\">
+          <div>
+            <p class=\"tag\">Planning Trajectory Learning</p>
+            <p class=\"brand-sub\">Thomas Jefferson University</p>
+          </div>
+        </div>
         <h1>From DVH evaluations to protocol-specific decision support</h1>
         <p class=\"subtitle\">This project turns iterative plan evaluations into interpretable models that highlight when plans improve, what structure family to focus on next, and when further iterations are unlikely to help.</p>
         <div class=\"hero-meta\">
@@ -273,6 +282,9 @@ python3 scripts/build_site.py
 """
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    LOGO_TARGET.parent.mkdir(parents=True, exist_ok=True)
+    if LOGO_SOURCE.exists():
+        copy2(LOGO_SOURCE, LOGO_TARGET)
     (DOCS_DIR / "index.html").write_text(html)
     print("docs/index.html written")
 

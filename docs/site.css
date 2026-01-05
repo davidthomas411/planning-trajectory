@@ -94,6 +94,29 @@ a:hover {
   align-items: center;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid #e6e0d5;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(15, 27, 45, 0.12);
+}
+
+.brand-sub {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 .tag {
   text-transform: uppercase;
   letter-spacing: 0.12em;
