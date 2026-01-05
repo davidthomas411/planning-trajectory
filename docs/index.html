@@ -43,11 +43,11 @@
         <p>Aggregated summaries for the abstract and dashboard.</p>
       </div>
       <div class="figure-grid">
-        <figure class="figure-card"><img src="figures/dataset_overview.svg" alt="Dataset overview" loading="lazy"><figcaption><strong>Dataset overview</strong><span>Aggregated counts from qualified plans and evaluations.</span></figcaption></figure>
-<figure class="figure-card"><img src="figures/q1_accuracy.svg" alt="Q1 accuracy" loading="lazy"><figcaption><strong>Q1 accuracy</strong><span>Model vs baseline for next-iteration improvement.</span></figcaption></figure>
-<figure class="figure-card"><img src="figures/q2_top3.svg" alt="Q2 top-3 accuracy" loading="lazy"><figcaption><strong>Q2 top-3 accuracy</strong><span>Structure family prediction success rate.</span></figcaption></figure>
-<figure class="figure-card"><img src="figures/q3_mae.svg" alt="Q3 remaining iterations" loading="lazy"><figcaption><strong>Q3 remaining iterations</strong><span>Mean absolute error vs baseline (lower is better).</span></figcaption></figure>
-<figure class="figure-card"><img src="figures/top_bottom_q1_accuracy.svg" alt="Top vs bottom protocols" loading="lazy"><figcaption><strong>Top vs bottom protocols</strong><span>Protocol variability for Q1 performance.</span></figcaption></figure>
+        <figure class="figure-card"><button class="figure-button" data-src="figures/dataset_overview.svg" data-title="Dataset overview" aria-label="Open figure"><img src="figures/dataset_overview.svg" alt="Dataset overview" loading="lazy"></button><figcaption><strong>Dataset overview</strong><span>Aggregated counts from qualified plans and evaluations.</span></figcaption></figure>
+<figure class="figure-card"><button class="figure-button" data-src="figures/q1_accuracy.svg" data-title="Q1 accuracy" aria-label="Open figure"><img src="figures/q1_accuracy.svg" alt="Q1 accuracy" loading="lazy"></button><figcaption><strong>Q1 accuracy</strong><span>Model vs baseline for next-iteration improvement.</span></figcaption></figure>
+<figure class="figure-card"><button class="figure-button" data-src="figures/q2_top3.svg" data-title="Q2 top-3 accuracy" aria-label="Open figure"><img src="figures/q2_top3.svg" alt="Q2 top-3 accuracy" loading="lazy"></button><figcaption><strong>Q2 top-3 accuracy</strong><span>Structure family prediction success rate.</span></figcaption></figure>
+<figure class="figure-card"><button class="figure-button" data-src="figures/q3_mae.svg" data-title="Q3 remaining iterations" aria-label="Open figure"><img src="figures/q3_mae.svg" alt="Q3 remaining iterations" loading="lazy"></button><figcaption><strong>Q3 remaining iterations</strong><span>Mean absolute error vs baseline (lower is better).</span></figcaption></figure>
+<figure class="figure-card"><button class="figure-button" data-src="figures/top_bottom_q1_accuracy.svg" data-title="Top vs bottom protocols" aria-label="Open figure"><img src="figures/top_bottom_q1_accuracy.svg" alt="Top vs bottom protocols" loading="lazy"></button><figcaption><strong>Top vs bottom protocols</strong><span>Protocol variability for Q1 performance.</span></figcaption></figure>
       </div>
     </section>
 
@@ -80,9 +80,57 @@ python3 scripts/build_site.py
       </div>
     </section>
 
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+      <div class="lightbox-backdrop" data-close="true"></div>
+      <div class="lightbox-content" role="document">
+        <button class="lightbox-close" data-close="true" aria-label="Close">x</button>
+        <img class="lightbox-image" src="" alt="">
+        <p class="lightbox-title"></p>
+      </div>
+    </div>
+
     <footer>
       <p>All figures are aggregated and contain no patient identifiers. Data access is read-only.</p>
     </footer>
   </div>
+  <script>
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.querySelector(".lightbox-image");
+    const lightboxTitle = document.querySelector(".lightbox-title");
+    const buttons = document.querySelectorAll(".figure-button");
+
+    const closeLightbox = () => {
+      lightbox.classList.remove("open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.src = "";
+      lightboxImage.alt = "";
+      lightboxTitle.textContent = "";
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const src = button.dataset.src;
+        const title = button.dataset.title || "Figure";
+        lightboxImage.src = src;
+        lightboxImage.alt = title;
+        lightboxTitle.textContent = title;
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+      });
+    });
+
+    lightbox.addEventListener("click", (event) => {
+      const target = event.target;
+      if (target && target.dataset && target.dataset.close) {
+        closeLightbox();
+      }
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeLightbox();
+      }
+    });
+  </script>
 </body>
 </html>

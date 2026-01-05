@@ -116,7 +116,9 @@ def _figure_block(filename: str, title: str, caption: str) -> str:
         return ""
     return (
         "<figure class=\"figure-card\">"
+        f"<button class=\"figure-button\" data-src=\"figures/{filename}\" data-title=\"{title}\" aria-label=\"Open figure\">"
         f"<img src=\"figures/{filename}\" alt=\"{title}\" loading=\"lazy\">"
+        "</button>"
         f"<figcaption><strong>{title}</strong><span>{caption}</span></figcaption>"
         "</figure>"
     )
@@ -197,6 +199,46 @@ def main() -> None:
         if block
     )
 
+    script = """<script>
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.querySelector(".lightbox-image");
+    const lightboxTitle = document.querySelector(".lightbox-title");
+    const buttons = document.querySelectorAll(".figure-button");
+
+    const closeLightbox = () => {
+      lightbox.classList.remove("open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.src = "";
+      lightboxImage.alt = "";
+      lightboxTitle.textContent = "";
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const src = button.dataset.src;
+        const title = button.dataset.title || "Figure";
+        lightboxImage.src = src;
+        lightboxImage.alt = title;
+        lightboxTitle.textContent = title;
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+      });
+    });
+
+    lightbox.addEventListener("click", (event) => {
+      const target = event.target;
+      if (target && target.dataset && target.dataset.close) {
+        closeLightbox();
+      }
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeLightbox();
+      }
+    });
+  </script>"""
+
     html = f"""<!doctype html>
 <html lang=\"en\">
 <head>
@@ -270,10 +312,20 @@ python3 scripts/build_site.py
       </div>
     </section>
 
+    <div class=\"lightbox\" id=\"lightbox\" aria-hidden=\"true\" role=\"dialog\">
+      <div class=\"lightbox-backdrop\" data-close=\"true\"></div>
+      <div class=\"lightbox-content\" role=\"document\">
+        <button class=\"lightbox-close\" data-close=\"true\" aria-label=\"Close\">x</button>
+        <img class=\"lightbox-image\" src=\"\" alt=\"\">
+        <p class=\"lightbox-title\"></p>
+      </div>
+    </div>
+
     <footer>
       <p>All figures are aggregated and contain no patient identifiers. Data access is read-only.</p>
     </footer>
   </div>
+  {script}
 </body>
 </html>
 """
